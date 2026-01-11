@@ -1,3 +1,18 @@
+## Quick Start (Local)
+
+### Requirements
+- Docker Desktop
+- Node.js (>= 20)
+- npm
+
+### Setup
+```bash
+cp .env.example .env
+npm install
+npm run db:up
+npm run migrate
+
+
 # MiniCRM (Yarım Kalmış Proje)
 
 Bu proje, küçük bir e-ticaret firmasının müşteri ve sipariş yönetimi için başlanmış **ama tamamlanmamış** bir MiniCRM sistemidir.
