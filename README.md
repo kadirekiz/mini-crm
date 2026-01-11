@@ -1,5 +1,12 @@
 ## Quick Start (Local)
 
+## Repository
+GitHub: https://github.com/kadirekiz/mini-crm
+
+## CI / PR History
+- CI: GitHub Actions (CI workflow)
+- PR & Code Review: Pull Requests sekmesi
+
 ### Requirements
 - Docker Desktop
 - Node.js (>= 20)
