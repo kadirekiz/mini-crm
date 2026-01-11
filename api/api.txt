@@ -1,0 +1,7 @@
+GET /api/customers – kısmen çalışıyor
+
+POST /api/customers – temel haliyle çalışıyor
+
+GET /api/orders – basit listeleme
+
+Diğer uçlar planlanmıştır ama henüz yazılmamıştır.

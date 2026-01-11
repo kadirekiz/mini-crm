@@ -1,0 +1,126 @@
+{
+  "meta": {
+    "file": "data/sample_customers.csv",
+    "sheet": "Sheet1",
+    "env": "development",
+    "dryRun": true,
+    "startedAt": "2026-01-11T18:08:54.565Z",
+    "finishedAt": "2026-01-11T18:08:54.659Z"
+  },
+  "summary": {
+    "dryRun": true,
+    "totalRows": 9,
+    "created": 0,
+    "updated": 0,
+    "unchanged": 9,
+    "skipped": 0,
+    "warnings": 2,
+    "errors": 0,
+    "warningsByCode": {
+      "MISSING_FIRSTNAME": 1,
+      "INVALID_EMAIL": 1
+    },
+    "errorsByCode": {}
+  },
+  "items": [
+    {
+      "row": 2,
+      "level": "info",
+      "code": "DRYRUN_UNCHANGED",
+      "message": "Dry-run: Customer unchanged",
+      "details": {
+        "matchedOn": "email"
+      }
+    },
+    {
+      "row": 3,
+      "level": "info",
+      "code": "DRYRUN_UNCHANGED",
+      "message": "Dry-run: Customer unchanged",
+      "details": {
+        "matchedOn": "email"
+      }
+    },
+    {
+      "row": 4,
+      "level": "info",
+      "code": "DRYRUN_UNCHANGED",
+      "message": "Dry-run: Customer unchanged",
+      "details": {
+        "matchedOn": "email"
+      }
+    },
+    {
+      "row": 5,
+      "level": "warning",
+      "code": "MISSING_FIRSTNAME",
+      "message": "firstName boştu; lastName firstName olarak kullanıldı",
+      "details": {
+        "originalLastName": "NoName"
+      }
+    },
+    {
+      "row": 5,
+      "level": "warning",
+      "code": "INVALID_EMAIL",
+      "message": "Email formatı geçersiz; email NULL yapıldı",
+      "details": {
+        "value": "noname@example"
+      }
+    },
+    {
+      "row": 5,
+      "level": "info",
+      "code": "DRYRUN_UNCHANGED",
+      "message": "Dry-run: Customer unchanged",
+      "details": {
+        "matchedOn": "phone"
+      }
+    },
+    {
+      "row": 6,
+      "level": "info",
+      "code": "DRYRUN_UNCHANGED",
+      "message": "Dry-run: Customer unchanged",
+      "details": {
+        "matchedOn": "email"
+      }
+    },
+    {
+      "row": 7,
+      "level": "info",
+      "code": "DRYRUN_UNCHANGED",
+      "message": "Dry-run: Customer unchanged",
+      "details": {
+        "matchedOn": "email"
+      }
+    },
+    {
+      "row": 8,
+      "level": "info",
+      "code": "DRYRUN_UNCHANGED",
+      "message": "Dry-run: Customer unchanged",
+      "details": {
+        "matchedOn": "email"
+      }
+    },
+    {
+      "row": 9,
+      "level": "info",
+      "code": "DRYRUN_UNCHANGED",
+      "message": "Dry-run: Customer unchanged",
+      "details": {
+        "matchedOn": "phone"
+      }
+    },
+    {
+      "row": 10,
+      "level": "info",
+      "code": "DRYRUN_UNCHANGED",
+      "message": "Dry-run: Customer unchanged",
+      "details": {
+        "matchedOn": "phone"
+      }
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+Bu repo, eğitim amacıyla bilerek eksik ve hatalı bırakılmıştır.
+
+Loglama standart değil
+
+Testler eksik
+
+Migration ve modeller birebir uyuşmuyor
+
+Konfigürasyon katmanı sadeleştirilmemiş

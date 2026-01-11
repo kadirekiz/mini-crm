@@ -1,0 +1,10 @@
+Ad,Soyad,Eposta,Telefon,Adres
+Ada,Lovelace,ADA@EXAMPLE.com,0555 111 22 33,"Istanbul, Kadikoy"
+Alan,Turing,alan.turing@example.com,+90 (555) 111-2233,"Ankara, Cankaya"
+Grace,Hopper,grace.hopper@example.com,5551112234,"Izmir"
+,NoName,noname@example,0500 000 00 00,"Bursa"
+Ahmet,Yilmaz,ahmet.yilmaz@example.com,0 532 123 45 67,"Istanbul"
+Ayse,,ayse@example.com,0532-123-4567,
+Ayse,,AYSE@example.com,0532-123-4567,"(duplicate row)"
+Mehmet,Kaya,,0533 222 33 44,"Konya"
+Mehmet,Kaya,,0533 222 33 44,"(duplicate without email)"

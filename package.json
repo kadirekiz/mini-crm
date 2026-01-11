@@ -1,0 +1,37 @@
+{
+  "name": "mini-crm",
+  "version": "0.1.0",
+  "description": "MiniCRM - Yar\u0131m kalm\u0131\u015f m\u00fc\u015fteri ve sipari\u015f y\u00f6netim sistemi (senaryo i\u00e7in).",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js",
+    "test": "cross-env NODE_ENV=test jest --runInBand",
+    "migrate": "sequelize db:migrate",
+    "db:up": "docker compose up -d",
+    "db:down": "docker compose down",
+    "db:reset": "docker compose down -v && docker compose up -d",
+    "migrate:undo:all": "sequelize db:migrate:undo:all",
+    "migrate:reset": "sequelize db:migrate:undo:all && sequelize db:migrate",
+    "etl:import-customers": "node scripts/etl/importCustomers.js --file data/sample_customers.csv --report reports/etl-customers-report.json",
+    "etl:dryrun-customers": "node scripts/etl/importCustomers.js --file data/sample_customers.csv --dry-run --report reports/etl-customers-dryrun.json"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.0",
+    "express": "^4.19.0",
+    "pg": "^8.11.0",
+    "pg-hstore": "^2.3.4",
+    "sequelize": "^6.37.0",
+    "swagger-ui-express": "^5.0.0",
+    "winston": "^3.11.0",
+    "xlsx": "^0.18.5",
+    "yargs": "^17.7.2"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "nodemon": "^3.1.0",
+    "sequelize-cli": "^6.6.2",
+    "supertest": "^6.3.4",
+    "cross-env": "^7.0.3"
+  }
+}
